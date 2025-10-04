@@ -42,10 +42,10 @@ Execute os comandos SQL abaixo no seu PostgreSQL para criar o banco e as tabelas
 
 ```sql
 -- Criar o banco de dados
-CREATE DATABASE Generator_AI;
+CREATE DATABASE BancoPtG;
 
 -- Conectar ao banco
-\c Generator_AI
+\c BancoPtG
 
 -- Criar tabela de usuários
 CREATE TABLE IF NOT EXISTS public.usuarios
@@ -84,7 +84,7 @@ Crie um arquivo `.env` na raiz do projeto com o seguinte conteúdo:
 # Database
 DB_USER=postgres
 DB_HOST=localhost
-DB_NAME=Generator_AI
+DB_NAME=BancoPtG
 DB_PASSWORD=sua_senha_aqui
 DB_PORT=5432
 
