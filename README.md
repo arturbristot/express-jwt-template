@@ -337,7 +337,7 @@ Este projeto está sob a licença ISC.
 
 ## 👤 Autor
 
-**Seu Nome**
+**Artur Bristot Rocha**
 - GitHub: [@arturbristot](https://github.com/arturbristot)
 
 ---
