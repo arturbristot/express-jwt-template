@@ -1,0 +1,23 @@
+meta {
+  name: Buscar usuario
+  type: http
+  seq: 3
+}
+
+get {
+  url: http://localhost:3001/api/users/:id
+  body: json
+  auth: inherit
+}
+
+params:path {
+  id: 3
+}
+
+headers {
+  Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF91c3VhcmlvIjozLCJlbWFpbCI6ImFydHVyQGdtYWlsLmNvbSIsInRpcG9fdXN1YXJpbyI6InN0YW5kYXJkIiwiaWF0IjoxNzU5NjA0ODgyLCJleHAiOjE3NTk2MDU3ODJ9.GZS-VPh_6tb4Mva3Smlcq1uIjxFrAsDzsetWh1VNUFE
+}
+
+settings {
+  encodeUrl: true
+}

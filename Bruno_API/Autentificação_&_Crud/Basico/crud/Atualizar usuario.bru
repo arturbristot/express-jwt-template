@@ -1,0 +1,31 @@
+meta {
+  name: Atualizar usuario
+  type: http
+  seq: 2
+}
+
+put {
+  url: http://localhost:3000/api/users/:id
+  body: json
+  auth: inherit
+}
+
+params:path {
+  id: 3
+}
+
+headers {
+  Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF91c3VhcmlvIjozLCJlbWFpbCI6ImFydHVyQGdtYWlsLmNvbSIsInRpcG9fdXN1YXJpbyI6InN0YW5kYXJkIiwiaWF0IjoxNzU4NDk0NjcxLCJleHAiOjE3NTg1ODEwNzF9.W9tHPNkklBUpoE2lxSzhH9KvkJzMQXtxJZOl2qw3SHQ
+}
+
+body:json {
+    {
+      "nome" : "artur123",
+      "senha" : "artur123"
+    }
+  
+}
+
+settings {
+  encodeUrl: true
+}
